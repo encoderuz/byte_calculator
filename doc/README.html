@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="rustdoc">
+    <title>Unit Converter for Rust Language</title>
+
+    
+    
+</head>
+<body class="rustdoc">
+    <!--[if lte IE 8]>
+    <div class="warning">
+        This old browser is unsupported and will most likely display funky
+        things.
+    </div>
+    <![endif]-->
+
+    
+    <h1 class="title">Unit Converter for Rust Language</h1>
+    <nav id="TOC"><ul>
+<li><a href="#this-library-allows-you-to-convert-a-size-in-bytes-into-kilobytes-megabytes-gigabytes-and-terabytes-as-well-as-perform-conversions-back-to-bytes">0.0.1 This library allows you to convert a size in bytes into kilobytes, megabytes, gigabytes, and terabytes, as well as perform conversions back to bytes.</a><ul></ul></li>
+<li><a href="#create-a-new-byteconverter-instance">0.0.2 Create a new <code>ByteConverter</code> instance</a><ul></ul></li>
+<li><a href="#converts-bytes-to-kilobytes-kb">0.0.3 Converts bytes to kilobytes (KB)</a><ul></ul></li>
+<li><a href="#converts-bytes-to-megabytes-mb">0.0.4 Converts bytes to megabytes (MB)</a><ul></ul></li>
+<li><a href="#converts-bytes-to-gigabytes-gb">0.0.5 Converts bytes to gigabytes (GB)</a><ul></ul></li>
+<li><a href="#converts-bytes-to-terabytes-tb">0.0.6 Converts bytes to terabytes (TB)</a><ul></ul></li></ul></nav><p><img src="https://github.com/encoderuz/data_storage_units/actions/workflows/data_storage_units.yml/badge.svg" alt="Test" />
+<a href="https://crates.io/crates/data_storage_units"><img src="https://img.shields.io/crates/v/data_storage_units.svg" alt="Current Crates.io Version" /></a></p>
+<h3 id="this-library-allows-you-to-convert-a-size-in-bytes-into-kilobytes-megabytes-gigabytes-and-terabytes-as-well-as-perform-conversions-back-to-bytes"><a class="doc-anchor" href="#this-library-allows-you-to-convert-a-size-in-bytes-into-kilobytes-megabytes-gigabytes-and-terabytes-as-well-as-perform-conversions-back-to-bytes">§</a>0.0.1 This library allows you to convert a size in bytes into kilobytes, megabytes, gigabytes, and terabytes, as well as perform conversions back to bytes.</h3><h3 id="create-a-new-byteconverter-instance"><a class="doc-anchor" href="#create-a-new-byteconverter-instance">§</a>0.0.2 Create a new <code>ByteConverter</code> instance</h3>
+<p><code>bytes</code>: The number of bytes to be converted.</p>
+
+<div class="example-wrap"><pre class="rust rust-example-rendered"><code><span class="kw">use </span>data_storage_units::ByteConverter;
+<span class="kw">let </span>converter = ByteConverter::new(<span class="number">1024</span>);</code></pre></div>
+<h3 id="converts-bytes-to-kilobytes-kb"><a class="doc-anchor" href="#converts-bytes-to-kilobytes-kb">§</a>0.0.3 Converts bytes to kilobytes (KB)</h3>
+<p>A tuple containing the value in kilobytes as <code>f64</code> and the unit “KB”.</p>
+
+<div class="example-wrap"><pre class="rust rust-example-rendered"><code><span class="kw">let </span>converter = ByteConverter::new(<span class="number">1024</span>);
+<span class="kw">let </span>(value, unit) = converter.to_kb();</code></pre></div>
+<h3 id="converts-bytes-to-megabytes-mb"><a class="doc-anchor" href="#converts-bytes-to-megabytes-mb">§</a>0.0.4 Converts bytes to megabytes (MB)</h3>
+<p>A tuple containing the value in megabytes as <code>f64</code> and the unit “MB”.</p>
+
+<div class="example-wrap"><pre class="rust rust-example-rendered"><code><span class="kw">let </span>converter = ByteConverter::new(<span class="number">1073741824</span>);
+<span class="kw">let </span>(value, unit) = converter.to_mb();</code></pre></div>
+<h3 id="converts-bytes-to-gigabytes-gb"><a class="doc-anchor" href="#converts-bytes-to-gigabytes-gb">§</a>0.0.5 Converts bytes to gigabytes (GB)</h3>
+<p>A tuple containing the value in gigabytes as <code>f64</code> and the unit “GB”.</p>
+
+<div class="example-wrap"><pre class="rust rust-example-rendered"><code><span class="kw">let </span>converter = ByteConverter::new(<span class="number">1073741824</span>);
+/<span class="kw">let </span>(value, unit) = converter.to_gb();</code></pre></div>
+<h3 id="converts-bytes-to-terabytes-tb"><a class="doc-anchor" href="#converts-bytes-to-terabytes-tb">§</a>0.0.6 Converts bytes to terabytes (TB)</h3>
+<p>A tuple containing the value in terabytes as <code>f64</code> and the unit “TB”.</p>
+
+<div class="example-wrap"><pre class="rust rust-example-rendered"><code><span class="kw">let </span>converter = ByteConverter::new(<span class="number">1073741824</span>);
+<span class="kw">let </span>(value, unit) = converter.to_tb();</code></pre></div>
+
+    
+</body>
+</html>
