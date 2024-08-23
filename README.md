@@ -1,5 +1,6 @@
 # Unit Converter for Rust Language
 ![Test](https://github.com/encoderuz/data_storage_units/actions/workflows/unit_converter.yml/badge.svg)
+[![Current Crates.io Version](https://img.shields.io/crates/v/data_storage_units.svg)](https://crates.io/crates/data_storage_units)
 ### This library allows you to convert a size in bytes into kilobytes, megabytes, gigabytes, and terabytes, as well as perform conversions back to bytes.
 
 
