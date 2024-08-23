@@ -1,5 +1,5 @@
 [package]
-name = "unit_converter"
+name = "data_storage_units"
 version = "0.1.0"
 edition = "2021"
 description = "Unit converter for rust language"

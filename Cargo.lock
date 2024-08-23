@@ -3,5 +3,5 @@
 version = 3
 
 [[package]]
-name = "unit_converter"
+name = "data_storage_units"
 version = "0.1.0"
