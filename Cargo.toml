@@ -1,6 +1,6 @@
 [package]
 name = "data_storage_units"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 description = "Unit converter for rust language"
 license = "MIT OR Apache-2.0"
