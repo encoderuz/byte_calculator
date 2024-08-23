@@ -25,7 +25,7 @@ impl ByteConverter {
     /// # Example
     ///
     /// ```
-    /// use unit_converter::ByteConverter;
+    /// use data_storage_units::ByteConverter;
     /// let converter = ByteConverter::new(1024);
     /// ```
     pub fn new(bytes: u64) -> Self {
@@ -41,7 +41,7 @@ impl ByteConverter {
     /// # Example
     ///
     /// ```
-    /// use unit_converter::ByteConverter;
+    /// use data_storage_units::ByteConverter;
     /// let converter = ByteConverter::new(1024);
     /// let (value, unit) = converter.to_kb();
     /// assert_eq!(value, 1.0);
@@ -60,7 +60,7 @@ impl ByteConverter {
     /// # Example
     ///
     /// ```
-    /// use unit_converter::ByteConverter;
+    /// use data_storage_units::ByteConverter;
     /// let converter = ByteConverter::new(1073741824);
     /// let (value, unit) = converter.to_mb();
     /// assert_eq!(value, 1024.0);
@@ -79,7 +79,7 @@ impl ByteConverter {
     /// # Example
     ///
     /// ```
-    /// use unit_converter::ByteConverter;
+    /// use data_storage_units::ByteConverter;
     /// let converter = ByteConverter::new(1073741824);
     /// let (value, unit) = converter.to_gb();
     /// assert_eq!(value, 1.0);
@@ -98,7 +98,7 @@ impl ByteConverter {
     /// # Example
     ///
     /// ```
-    /// use unit_converter::ByteConverter;
+    /// use data_storage_units::ByteConverter;
     /// let converter = ByteConverter::new(1073741824);
     /// let (value, unit) = converter.to_tb();
     /// assert_eq!(value, 0.0009765625);

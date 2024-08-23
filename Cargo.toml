@@ -6,7 +6,7 @@ description = "Unit converter for rust language"
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/encoderuz/unit_converter"
 homepage = "https://github.com/encoderuz/unit_converter"
-documentation = "https://docs.rs/my_library"
+documentation = "https://docs.rs/data_storage_units"
 readme = "README.md"
 keywords = ["rust", "library", "byte_calculator", "converter", "byte_converter"]
 
