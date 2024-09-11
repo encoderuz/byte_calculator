@@ -2,6 +2,7 @@
 ![Test](https://github.com/encoderuz/data_storage_units/actions/workflows/data_storage_units.yml/badge.svg)
 [![Current Crates.io Version](https://img.shields.io/crates/v/data_storage_units.svg)](https://crates.io/crates/data_storage_units)
 [![Downloads](https://img.shields.io/crates/d/data_storage_units.svg)](https://crates.io/crates/data_storage_units)
+[![Docs](https://docs.rs/data_storage_units/badge.svg)](https://docs.rs/data_storage_units/latest/data_storage_units/)
 ### This library allows you to convert a size in bytes into kilobytes, megabytes, gigabytes, and terabytes, as well as perform conversions back to bytes.
 
 
